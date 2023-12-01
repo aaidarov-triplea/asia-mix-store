@@ -1,0 +1,38 @@
+.navbar {
+    margin-right: 30px;
+    background-color: var(--content-bg);
+    width: 30%;
+    height: auto;
+}
+
+.navbar_title {
+    margin: 20px 0 25px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.navbar_link {
+    padding: 0 0 15px 25px;
+    font-size: 20px;
+}
+
+
+/* Adaptive for Tablet */
+@media screen and (min-width: 611px) and (max-width: 860px) {
+        .navbar {
+            width: 25%;
+        }
+        .navbar_link {
+            padding: 0 0 15px 15px;
+            font-size: 20px;
+        }
+}
+
+/* Adaptive for mobile */
+@media screen and (max-width: 610px) {
+    .navbar {
+        width: 100%;
+        margin-right: 0;
+    }
+}

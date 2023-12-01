@@ -19,3 +19,21 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.wrapper {
+    display: flex;
+}
+
+/* Adaptive for Tablet */
+@media screen and (min-width: 611px) and (max-width: 860px) {
+    .wrapper {
+        justify-content: space-between;
+    }
+}
+
+/* Adaptive for mobile */
+@media screen and (max-width: 610px) {
+    .wrapper {
+        flex-direction: column;
+    }
+}
