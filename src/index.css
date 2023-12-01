@@ -1,0 +1,21 @@
+:root {
+    --logo-font: 'Joti One', serif;
+    --texts-font: 'Montserrat', sans-serif;
+    --text-main-color: #274C5B;
+    --content-bg: #F9F8F8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--texts-font);
+    color: var(--text-main-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
