@@ -1,0 +1,156 @@
+.footer {
+    width: 100%;
+    margin-top: 100px;
+    padding: 35px 25px;
+    background-color: var(--content-bg);
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_logo {
+    font-size: 16px;
+}
+
+.help {
+    display: flex;
+    gap: 30px;
+}
+
+.help_list li {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.help_list li:first-child {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.help_list li:last-child {
+    margin-bottom: 0;
+}
+
+.help_list li a:hover {
+    color: #800E0E;
+    text-decoration: underline;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+}
+
+.call_icon {
+    width: 20px;
+    height: 20px;
+}
+
+.call_number {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.call_link {
+    font-size: 14px;
+    color: #800E0E;
+    text-transform: uppercase;
+    padding-left: 25px;
+}
+
+.icons {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons span {
+    font-size: 14px;
+}
+
+.icons_box {
+    margin-top: 12px;
+}
+
+.icons_link_icon {
+    width: 50px;
+    height: 50px;
+    transition: all .3s linear;
+}
+
+.icons_link_icon:hover {
+    transform: scale(.9);
+    background-color: #a1a1a1;
+    border-radius: 10px;
+}
+
+/* Adaptive for Tablet */
+@media screen and (min-width: 611px) and (max-width: 860px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer_logo {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .help {
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .call_center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 55px;
+    }
+}
+
+/* Adaptive for mobile */
+@media screen and (max-width: 610px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer_logo {
+        margin-bottom: 15px;
+    }
+
+    .help {
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+    .help_list li {
+        font-size: 14px;
+    }
+
+    .call_center {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 7px;
+    }
+
+    .call_number {
+        font-size: 15px;
+    }
+    .call_link {
+        text-transform: none;
+    }
+    .icons_link_icon {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Adaptive for mobile */
+@media screen and (max-width: 380px) {
+    .call_center {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
