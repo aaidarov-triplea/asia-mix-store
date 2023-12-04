@@ -19,7 +19,7 @@ const Footer = () => {
             <a href="#">Информация</a>
           </li>
           <li>
-            <a href="#">Условия оплаты</a>
+            <a href="/payments-info">Условия оплаты</a>
           </li>
           <li>
             <a href="#">Условия доставки</a>
