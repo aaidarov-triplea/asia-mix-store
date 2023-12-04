@@ -43,7 +43,7 @@ const Footer = () => {
             <FaPhone className={styles.call_icon} />
             <span className={styles.call_number}>055-5985909</span>
           </div>
-          <a href="#" className={styles.call_link}>
+          <a href="tel:+971555985909" className={styles.call_link}>
             Заказать звонок
           </a>
         </div>

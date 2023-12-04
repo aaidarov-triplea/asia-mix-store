@@ -98,14 +98,14 @@
     }
 
     .help {
-        justify-content: center;
+        justify-content: space-around;
         margin-bottom: 15px;
     }
 
     .call_center {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         gap: 55px;
     }
 }
@@ -148,7 +148,7 @@
 }
 
 /* Adaptive for mobile */
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 392px) {
     .call_center {
         flex-direction: column;
         align-items: flex-start;
